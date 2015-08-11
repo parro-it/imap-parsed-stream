@@ -2,7 +2,7 @@
   "name": "imap-parsed-stream",
   "description": "",
   "repository": "https://github.com/parro-it/imap-parsed-stream.git",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "dependencies": {
     "babel-runtime": "^5.8.20",

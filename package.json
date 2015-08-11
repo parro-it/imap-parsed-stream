@@ -10,6 +10,7 @@
     "mailparser": "^0.5.2",
     "through2": "^2.0.0"
   },
+  "license": "MIT",
   "author": "parro-it",
   "scripts": {
     "test": "mocha test/*_test.js test/**/*_test.js --require ./test/_init || echo failed",

@@ -23,10 +23,6 @@
         "date": "2013-12-28T15:12:01.000Z"
     },
     {
-        "headers": {},
-        "priority": "normal"
-    },
-    {
         "headers": {
             "date": "Tue, 03 Dec 2013 14:05:25 -0800 (PST)",
             "subject": "I post più popolari della settimana su Google+",
@@ -50,10 +46,6 @@
         "date": "2013-12-03T22:05:25.000Z"
     },
     {
-        "headers": {},
-        "priority": "normal"
-    },
-    {
         "headers": {
             "date": "Sat, 12 Oct 2013 17:39:49 +0200",
             "from": "\"imaptest73@gmail.com\" <imaptest73@gmail.com>",
@@ -68,13 +60,5 @@
             }
         ],
         "date": "2013-10-12T15:39:49.000Z"
-    },
-    {
-        "headers": {},
-        "priority": "normal"
-    },
-    {
-        "headers": {},
-        "priority": "normal"
     }
 ]

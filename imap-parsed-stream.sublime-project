@@ -3,6 +3,12 @@
 	[
 		{
 			"path": "."
+		},
+		{
+			"path": "/home/parro-it/Desktop/repos/imap-stream"
+		},
+		{
+			"path": "/media/parro-it/995b8ba0-7fd7-480e-a89b-f62b4dbb3642/DATA/repository/Abdero/message-parser"
 		}
 	]
 }

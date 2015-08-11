@@ -2,8 +2,21 @@ let moduleRoot = '../es6';
 if (process.env.TEST_RELEASE) {
   moduleRoot = '../dist';
 }
-
+import fixture from './fixture/expected.json';
 import concat from 'concat-stream';
+import mapObj from 'map-obj';
+
+
+const convertDates = data => mapObj(data, (key, value) => {
+  if (key === 'date') {
+    return [key, new Date(value)];
+  }
+  return [key, value];
+});
+
+const expected = fixture.map(convertDates);
+
+
 
 /*eslint-disable */
 const input =
@@ -32,21 +45,19 @@ Subject: this is a test
 /*eslint-enable */
 const imapParsedStream = require(moduleRoot);
 
-describe('imapParsedStream', done => {
-  it('works', async () => {
-    const parse = await imapParsedStream();
-
+describe('imapParsedStream', () => {
+  it('works', done => {
+    const parse = imapParsedStream();
+    parse.on('error', done);
     parse.pipe(concat({encoding: 'object'}, result => {
-      console.dir(result)
+      result.should.be.deep.equal(expected);
       done();
     }));
 
-    input.split('\n\n').forEach(m =>
-      parse.write(m)
-    );
+    input.split('\n\n').forEach(m => {
+      parse.write(m);
+    });
     parse.end();
-
-
   });
 });
 

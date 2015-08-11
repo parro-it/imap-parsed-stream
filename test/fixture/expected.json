@@ -1,0 +1,80 @@
+[
+    {
+        "headers": {
+            "date": "Sat, 28 Dec 2013 07:12:01 -0800 (PST)",
+            "subject": "Aggiungi una foto del profilo",
+            "from": "\"Google+\" <noreply-bbf11161@plus.google.com>",
+            "to": "imaptest73@gmail.com"
+        },
+        "subject": "Aggiungi una foto del profilo",
+        "priority": "normal",
+        "from": [
+            {
+                "address": "noreply-bbf11161@plus.google.com",
+                "name": "Google+"
+            }
+        ],
+        "to": [
+            {
+                "address": "imaptest73@gmail.com",
+                "name": ""
+            }
+        ],
+        "date": "2013-12-28T15:12:01.000Z"
+    },
+    {
+        "headers": {},
+        "priority": "normal"
+    },
+    {
+        "headers": {
+            "date": "Tue, 03 Dec 2013 14:05:25 -0800 (PST)",
+            "subject": "I post più popolari della settimana su Google+",
+            "from": "\"Google+\" <noreply-bbf11161@plus.google.com>",
+            "to": "imaptest73@gmail.com"
+        },
+        "subject": "I post più popolari della settimana su Google+",
+        "priority": "normal",
+        "from": [
+            {
+                "address": "noreply-bbf11161@plus.google.com",
+                "name": "Google+"
+            }
+        ],
+        "to": [
+            {
+                "address": "imaptest73@gmail.com",
+                "name": ""
+            }
+        ],
+        "date": "2013-12-03T22:05:25.000Z"
+    },
+    {
+        "headers": {},
+        "priority": "normal"
+    },
+    {
+        "headers": {
+            "date": "Sat, 12 Oct 2013 17:39:49 +0200",
+            "from": "\"imaptest73@gmail.com\" <imaptest73@gmail.com>",
+            "subject": "this is a test"
+        },
+        "subject": "this is a test",
+        "priority": "normal",
+        "from": [
+            {
+                "address": "imaptest73@gmail.com",
+                "name": ""
+            }
+        ],
+        "date": "2013-10-12T15:39:49.000Z"
+    },
+    {
+        "headers": {},
+        "priority": "normal"
+    },
+    {
+        "headers": {},
+        "priority": "normal"
+    }
+]
